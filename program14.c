@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
- int n, i, count = 0;
-clrscr();
+ int n, i, count = 0;                                                                                                                                                                                                                                                                               
+clrscr();        
  scanf("%d",&n);
  for(i=0;i<=n/2;i++)
  {
@@ -17,6 +17,5 @@ clrscr();
   printf("no");
  else
   printf("yes");
- getch();
- return 0;
+ getcH();
 }
